@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(153, 219, 219);
+}
+.section {
+  margin: 10rem auto;
+  width: fit-content;
+  padding: 2rem 5rem;
+  background-color: #fff;
+  border-radius: 8px;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+form {
+  text-align: center;
+}
+
+input {
+  width: 25rem;
+  height: 2rem;
+  padding-left: 10px;
+  border: none;
+  background-color: rgb(205, 231, 231);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  outline-offset: -1px;
+  margin-bottom: 1rem;
+}
+input:focus{
+  outline: 1px solid rgb(146, 146, 146);
+}
+.submit-btn {
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  background-color: rgb(81, 235, 235);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: rgb(1, 82, 82);
+  color: #fff;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  background-color: rgb(233, 240, 239);
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.btn button {
+  border: none;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 4px;
+  font-family: inherit;
+}
+.btn button:hover{
+  cursor: pointer;
+  opacity: 86%;
+  color: rgb(65, 14, 14);
+}
+.btn button:active{
+  box-shadow: none;
+}
+.edit {
+  background-color: transparent;
+  margin-right: 5px;
+  color: rgb(55, 170, 80);
+}
+.del {
+  background-color: transparent;
+  color: crimson;
+}
+.clear{
+  color: rgba(255, 0, 0, 0.671);
+  font-size: 1rem;
+  font-weight: 700;
+  width: fit-content;
+  margin: auto;
+}
+.clear:hover{
+  cursor: pointer;
+}
